@@ -1,0 +1,170 @@
+body {
+  background-color: #484848;
+    margin: 40px;
+  }
+
+  
+
+.headline {
+    display: flex;
+    grid-area: headline;
+    margin-left: 20px;
+    padding-left: 0px;
+    height: 500px;
+   justify-content: center;
+    flex-direction: column;
+    line-height:60px;
+    
+  }
+  
+  .headline h1 {
+    letter-spacing: 7px;
+    line-height: 80px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color: #E57255;
+    
+  }
+  
+  
+  .headline p {
+    letter-spacing: 8px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+    color: #45BCDC;
+    line-height: 80px;
+    
+  }
+  
+  .headline p .dot1{
+  color: #FF6699;
+  }
+  
+  
+  
+  .box1 {
+    grid-area: box1;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    border: solid yellow;
+    /* align-content: space-between; */
+    background-color: #484848;
+    
+    font-size: 25px;
+    font-weight: lighter;
+   
+    color: #B3B8BC;
+    font-family: 'Oswald', sans-serif;
+    line-height: 50px;
+    /* font-display: white; */
+    
+  }
+  
+  ul.list1{
+    list-style-type: square;
+    padding: 60px;
+    margin-left: 30px;
+    /* font-size: 40px;
+    color:white;
+    line-height:60px; */
+  }
+
+
+
+  
+
+/* --Media queries------------------------------------------------------------------------------ */
+
+
+/* Small and up (Landscape Phones) */
+@media only screen and (max-width: 600px) {
+  /* Just use the same as Extra Small above  */
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+      "headline"
+      "box1";
+      
+  }
+  
+
+  .box {
+    margin: 10px;
+  }
+
+  .box1,
+  .headline {
+    width: 60%;
+    height: 95%;
+  }
+
+
+  .headline {
+    display: flex;
+    grid-area: headline;
+    margin-left: 20px;
+    padding-left: 0px;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1px;
+  }
+
+  .headline h1 {
+    letter-spacing: 7px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #E57255;
+  }
+
+
+  .headline p {
+    letter-spacing: 9px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #45BCDC;
+  }
+
+  .text1 {
+
+    font-size: 30px;
+
+  }
+
+
+
+}
+
+
+
+/* Medium and up (Tablets) */
+@media only screen and (max-width: 1294px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+      "headline"
+      "box1";
+  }
+  
+}
+
+
+/* Large and up (Desktops) */
+@media only screen and (min-width: 1295px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-areas:
+    "headline"
+    "box1";
+
+  }
+}
+

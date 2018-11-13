@@ -1,0 +1,569 @@
+body {
+  background-color: #484848;
+  margin: 20px;
+}
+
+
+.headline {
+  grid-area: headline;
+  display: flex;
+  margin-left: 20px;
+  padding-left: 0px;
+  height: 500px;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 80px;
+}
+
+.headline h1 {
+  letter-spacing: 7px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 90px;
+  font-weight: bolder;
+  color: #E57255;
+}
+
+
+.headline p {
+  letter-spacing: 9px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+  font-weight: bolder;
+  color: #45BCDC;
+}
+
+.headline p .dot1 {
+  color: #FF6699;
+
+}
+
+
+
+.box {
+  background: #eeeeee;
+  padding: 30px;
+  /* border: 1px solid yellowgreen; */
+  margin: 20px;
+  font-display: white;
+  /* background-size: cover; */
+}
+
+
+
+/* Box 1 area coding */
+/* -------------------------------------------------------------------------------- */
+.box1 {
+  grid-area: box1;
+  position: relative;
+  padding: 0px;
+
+}
+
+
+.imbox1 {
+  object-fit: cover;
+  /* background-size: cover; */
+  width: 100%;
+  height: 100%;
+
+}
+
+.imbox1:hover {
+  opacity: 0.1;
+  transition: .5s linear;
+}
+
+
+.box1:hover .overlay1 {
+  opacity: 0.9;
+  transition: .5s ease;
+
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333333;
+}
+
+
+
+.text1 {
+  color: #E5C453;
+  font-weight: lighter;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+
+/* Box 2 area coding */
+/* -------------------------------------------------------------------------------- */
+
+.box2 {
+  grid-area: box2;
+  padding: 0;
+  position: relative;
+}
+
+.imbox2 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.imbox2:hover {
+  opacity: 0.1;
+  transition: .5s linear;
+}
+
+
+.box2:hover .overlay2 {
+  opacity: 0.9;
+  transition: .5s ease;
+
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333333;
+}
+
+.text2 {
+  color: #E5C453;
+  font-size: 50px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Box 3 area coding */
+/* -------------------------------------------------------------------------------- */
+
+
+.box3 {
+  grid-area: box3;
+  padding: 0;
+  position: relative;
+}
+
+
+.imbox3 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.imbox3:hover {
+  opacity: 0.1;
+  transition: .5s ease;
+
+}
+
+
+.box3:hover .overlay3 {
+  opacity: 0.9;
+  transition: .5s ease;
+
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333333;
+}
+
+.text3 {
+  color: #E5C453;
+  font-size: 50px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Box 4 area coding */
+/* -------------------------------------------------------------------------------- */
+
+
+.box4 {
+  grid-area: box4;
+  padding: 0px;
+  position: relative;
+}
+
+
+
+.imbox4 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.imbox4:hover {
+  opacity: 0.1;
+  transition: .5s linear;
+}
+
+
+
+.box4:hover .overlay4 {
+  opacity: 0.9;
+  transition: .5s ease;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333333;
+}
+
+.text4 {
+  color: #E5C453;
+  font-size: 50px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+
+/* Box 5 area coding */
+/* -------------------------------------------------------------------------------- */
+
+
+.box5 {
+  grid-area: box5;
+  background-color: #484848;
+  color: #E95065;
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 3px;
+  line-height: 70px;
+}
+
+/* .box5 h1, .box5 p{
+  padding: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+/* Box 6 area coding */
+/* -------------------------------------------------------------------------------- */
+
+
+.box6 {
+  grid-area: box6;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: #484848;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #B3B8BC;
+  font-family: 'Oswald', sans-serif;
+  line-height: 40px;
+}
+
+.box6 p {
+  padding: 10px;
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+
+/* Box 7 area coding */
+/* -------------------------------------------------------------------------------- */
+
+
+
+.box7 {
+  grid-area: box7;
+  display: flex;
+  justify-content: center;
+  background-color: #484848;
+  color: #52D273;
+  font-size: 90px;
+  font-weight: lighter;
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 3px;
+  line-height: 70px;
+}
+
+
+.box7 p .dot1 {
+  color: #E95065;
+
+}
+
+/* -------------------------------------------------------------------------------- */
+
+
+
+
+
+
+/* --Media queries------------------------------------------------------------------------------ */
+
+
+/* Small and up (Landscape Phones) */
+@media only screen and (max-width: 600px) {
+  /* Just use the same as Extra Small above  */
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+      "headline"
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6"
+      "box7";
+  }
+  
+
+  .box {
+    margin: 10px;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7,
+  .headline {
+    width: 60%;
+    height: 95%;
+  }
+
+
+  .headline {
+    display: flex;
+    grid-area: headline;
+    margin-left: 20px;
+    padding-left: 0px;
+
+    justify-content: center;
+    flex-direction: column;
+    line-height: 40px;
+  }
+
+  .headline h1 {
+    letter-spacing: 7px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #E57255;
+  }
+
+
+  .headline p {
+    letter-spacing: 9px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #45BCDC;
+  }
+
+  .text1,
+  .text2,
+  .text3,
+  .text4,
+  .box6 {
+
+    font-size: 30px;
+
+  }
+
+  .box5 {
+    grid-area: box5;
+
+    background-color: #484848;
+    color: #E95065;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    line-height: 40px;
+  }
+
+
+  .box6 {
+    grid-area: box6;
+    display: flex;
+    justify-content: flex-start;
+    
+    flex-wrap: wrap;
+
+    
+    background-color: #484848;
+
+    font-size: 25px;
+    font-weight: lighter;
+
+    color: #B3B8BC;
+    font-family: 'Oswald', sans-serif;
+    line-height: 40px;
+  }
+
+  .box6 p {
+    padding: 10px;
+  }
+
+  .box7 {
+
+    font-size: 30px;
+
+  }
+
+}
+
+
+
+/* Medium and up (Tablets) */
+@media only screen and (max-width: 1294px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+      "headline"
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6"
+      "box7";
+  }
+  
+}
+
+
+/* Large and up (Desktops) */
+@media only screen and (min-width: 1295px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas:
+      "headline headline headline"
+      "box1 box1 box2"
+      "box3 box3 box2"
+      "box4 box4 box4"
+      "box5 box6 box6"
+      "box7 box7 box7";
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
